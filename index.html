@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;1,8..144,100;1,8..144,300&family=Space+Grotesk:wght@300&family=Staatliches&family=Tilt+Prism&display=swap" rel="stylesheet">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./assets/style.css">
   
   <title>Frontend Mentor | Age calculator app</title>
 
@@ -12,28 +18,46 @@
   
 </head>
 <body>
+  <div class="container">
+    <form>
+      <div class="form-control">
+        <label class="small">DAY</label>
+        <input type="number">
+      </div>
+      <div class="form-control">
+        <label class="small">MONTH</label>
+        <input type="number">
+      </div>
+      <div class="form-control">
+        <label class="small">YEAR</label>
+        <input type="number">
+      </div>
+      
+    </form>
+    <hr>
+    
 
-  <form>
-    <div class="form-control">
-      <label>Day</label>
-      <input type="number">
+    <div class="image">
+      
+      <img src="./assets/images/icon-arrow.svg">
+      
     </div>
-    <div class="form-control">
-      <label>Month</label>
-      <input type="number">
+   
+
+    
+    
+    
+    <div class="output">
+     <h1><span>38</span> years</h1>
+     <h1><span>3</span> months</h1>
+     <h1><span>26</span> days</h1>
     </div>
-    <div class="form-control">
-      <label>Year</label>
-      <input type="number">
-    </div>
-  </form>
-  <hr>
-  
-  <div class="output">
-    -- years
-    -- months
-    -- days
+
+    
   </div>
+
+  
+ 
   
 
   

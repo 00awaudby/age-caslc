@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: grey;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    
+    
+
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 2.5rem;
+    background: white;
+    border-radius: 1rem;
+    border-bottom-right-radius: 6rem;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+input{
+    width: 90px;
+    font-size: 24px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    border: 2px solid hsl(0, 0%, 86%);
+    font-weight: bold;
+}
+
+input:focus{
+   outline: none;
+}
+
+
+
+
+hr{
+   border: 2px solid hsl(0, 0%, 94%);
+   width: 375px;
+   margin-top: 75px;
+   
+ 
+}
+
+
+
+
+
+
+img{
+    width: 65px;
+    height: 65px;
+    padding: 1.3rem;
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+}
+
+.image{
+    text-align: center;
+    margin-top: -30px;
+}
+
+
+span{
+    color: hsl(259, 100%, 65%);
+}
+
+
+
+
+.output{
+    font-weight: bold;
+    
+}
+
+
+
+.small{
+    font-size:16px;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    
+}
+
+h1{
+    height: 70px;
+}
